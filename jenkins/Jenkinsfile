@@ -21,10 +21,5 @@ agent any
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-         stage('Complete') {
-            steps {
-                echo 'Job complete!'
-            }
-        }
     }
 }
